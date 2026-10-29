@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.3.287](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.286...0.3.287) (2026-10-29)
+
+
+### Features
+
+* **sentinel:** the sentinel host gives the input budget and the token count of a monitor model ([#6132](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6132)) ([f1074f9](https://github.com/UKGovernmentBEIS/inspect_ai/commit/f1074f913b1f9adf31482271b7eaa91545652f9c))
+
+
+### Bug Fixes
+
+* Docker file operations report unknown users as unsupported on Docker Engine 28 ([#6152](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6152)) ([c300b90](https://github.com/UKGovernmentBEIS/inspect_ai/commit/c300b90fa0d043a4e720bc2255be3e673a5a3e03))
+* model_info() no longer constructs a model provider for a model named in a log ([#6084](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6084)) ([96fc9a4](https://github.com/UKGovernmentBEIS/inspect_ai/commit/96fc9a4bd03ebfba5aa62731b6f351efb7789f9c))
+* reject blank choices that shift answer letters ([#5766](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5766)) ([2f78dcb](https://github.com/UKGovernmentBEIS/inspect_ai/commit/2f78dcb29eb02830b4536050f61fd1a0f7665523))
+* restic checkpoint resume breaking on large repos in the k8s sandbox ([#6040](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6040)) ([6cccb6e](https://github.com/UKGovernmentBEIS/inspect_ai/commit/6cccb6ef7aa7f0e5b47ad4cfc7150b7c11e9a4a7))
+* resume sample error retries from the latest checkpoint ([#5963](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5963)) ([45f55a0](https://github.com/UKGovernmentBEIS/inspect_ai/commit/45f55a050103a8053acf7d556e02a52c337c61c2))
+* strict pyright reports eval's sentinel parameter as partially unknown without inspect_sentinel ([#6151](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6151)) ([c7138a6](https://github.com/UKGovernmentBEIS/inspect_ai/commit/c7138a6089c7a294a78c40716aaa5c805190077f))
+
 ## [0.3.286](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.285...0.3.286) (2026-10-28)
 
 
